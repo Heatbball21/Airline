@@ -1,0 +1,4 @@
+1_3:
+added  ability to change seats 
+added dedicated move seat method separate from reserve seat
+added move button event handlers

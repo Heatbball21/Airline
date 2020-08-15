@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>AirlineReservationJFX</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.xtext.ui.shared.xtextBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Flights.txt</name>
+			<type>1</type>
+			<location>Z:/eclipse-workspaceJava/AirlineReservationJFX/Flights.txt</location>
+		</link>
+		<link>
+			<name>src/Assets/Flights.txt</name>
+			<type>1</type>
+			<location>Z:/eclipse-workspaceJava/AirlineReservationJFX/Flights.txt</location>
+		</link>
+	</linkedResources>
+</projectDescription>

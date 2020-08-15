@@ -1,0 +1,47 @@
+	
+		1
+	//after the loop if a seat still hasn't been found
+			if(found == false) {
+				System.out.println("No available seats in First Class, would you like to move? (y/n): ");
+				move = s.next().charAt(0);
+				if(move == 'y') {
+					//if the user wants to move seats loop thought the economy seats
+					while(found == false && EconomyCounter < TotalSeats) {
+					found = CheckEconomy(EconomyCounter);
+					EconomyCounter ++;
+					}
+						//if no seat has been found print no available seats
+						if(found == false) {
+							System.out.println("\nSorry no available seats.\n");
+						}
+						
+				}else {
+					System.out.println("\nNext flight leaves in 3 hours.\n");
+				}
+			}else {
+				found = false;
+			}
+			
+			
+			
+			2
+			if(found == false) {
+				System.out.println("No available seats in Economy, would you like to move? (y/n): ");
+				move = s.next().charAt(0);
+				
+				if(move == 'y') {
+					
+					while(found == false && FirstClassCounter <EconomyCounter) {
+						found = CheckFirstClass(FirstClassCounter);
+						FirstClassCounter++;
+					}
+					if(found == false) {
+						System.out.println("\nSorry no available seats.\n");
+					}
+				}else {
+					System.out.println("\nNext flight leaves in 3 hours.\n");
+				}
+			}else {
+				found = false;
+			}
+			
