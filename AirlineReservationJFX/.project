@@ -24,12 +24,12 @@
 		<link>
 			<name>Flights.txt</name>
 			<type>1</type>
-			<location>Z:/eclipse-workspaceJava/AirlineReservationJFX/Flights.txt</location>
+			<location>C:/Users/User/git/Airline/AirlineReservationJFX/src/Assets/Flights.txt</location>
 		</link>
 		<link>
 			<name>src/Assets/Flights.txt</name>
 			<type>1</type>
-			<location>Z:/eclipse-workspaceJava/AirlineReservationJFX/Flights.txt</location>
+			<location>C:/Users/User/git/Airline/AirlineReservationJFX/src/Assets/Flights.txt</location>
 		</link>
 	</linkedResources>
 </projectDescription>
